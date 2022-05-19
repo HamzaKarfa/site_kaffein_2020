@@ -1,0 +1,42 @@
+.scene {
+  width: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    width: 60%;
+    height: 100%;
+  }
+} 
+.scene-dark{
+  .logo {
+    .ka,
+    .ffen { 
+      fill: $color-shark;
+    }
+  }
+  .exclamation {
+    circle,
+    path {
+      fill: $color-primary;
+
+    }
+  }
+}
+.scene-light{
+  display: none;
+  .logo {
+    .ka,
+    .ffen { 
+      fill: $color-white ;
+    }
+  }
+  .exclamation {
+    circle,
+    path {
+      fill: $color-secondary;
+    }
+  }
+}

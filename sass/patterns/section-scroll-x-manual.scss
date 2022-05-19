@@ -1,0 +1,55 @@
+.items {
+    padding:30px; 
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: -webkit-inline-box;
+    cursor: grab;
+    .item {
+      white-space: wrap;
+      min-height: 200px;
+      margin: 2em 1em;
+      width: 33%;
+      span{
+        color: $color-primary-variant-eWisteria;
+        -webkit-background-clip: text;
+        font-weight: 900;
+        font-family:  $font-title;
+        opacity: 0.6;
+        font-size: 50pt;
+        z-index: 1;
+        padding: 20px;
+      }
+      p{
+        z-index: 10;
+        padding: 20px;
+        margin-top: -30px;
+        margin-left: 50px;
+        font-family: $font-paragraph;
+        text-align: center;
+        font-weight: 600;
+
+      }
+      @media (max-width: 980px) {
+        p{
+            padding: 0px; 
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+        min-height: 200px;
+        min-width: 200px;
+      }
+    }
+  }
+
+  .items.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+  }
+
+
+
+
+
+

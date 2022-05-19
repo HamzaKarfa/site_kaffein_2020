@@ -1,0 +1,31 @@
+.container-carrousel{
+    .et_pb_column {
+        .et_pb_code{
+            .et_pb_code_inner{      
+                .carrousel {
+                    position: relative;
+                    @media (min-width: 980px){
+                        overflow: hidden;
+                    }
+                    display: flex;
+                    flex: 1;           
+                    .slides-carrousel {
+                        position: relative;
+                        height: 30vh;
+                        width: 100%; 
+                        .slide-item-carrousel {
+                            font-family: $font-paragraph;
+                            position: absolute;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;                            
+                            width: calc(100% / 3);
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

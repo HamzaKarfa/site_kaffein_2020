@@ -1,0 +1,72 @@
+
+.homepage-section-articles{
+    padding: 0;
+    padding-top: 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .container-articles-title{
+        margin: 0;
+    }
+    .container-articles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;    
+        width: 100%;
+        a{
+            color: $color-nevada;
+        }
+        @media (min-width: 980px){
+            .et_pb_column{
+                width: 40%;
+            }
+        
+        }
+        .et_pb_column{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 50%;
+            margin: 0;
+            padding: 20px;
+            a{
+                color: $color-nevada;
+                font-family: $font-paragraph;
+                font-weight: 500;
+                border: none;
+            }
+
+            .text-articles{
+                filter: grayscale(50%);
+                transition: .7s ease-out;
+                height:40vh;
+                width: 100%;
+                background-image: url("http://www.dev.kaffein.agency/wp-content/uploads/2020/10/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+                background-repeat: no-repeat;
+                background-size: 110%;
+    
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: flex-end;
+                .et_pb_text_inner{
+                    font-family: $font-paragraph;
+                    color:$color-white;
+                    p{
+                        font-weight: 500;
+                        background-color: $color-primary;
+                    }
+                }
+            }
+            .text-articles:hover{
+                background-size: 120%;
+                filter: grayscale(0%);
+            }
+        }
+    }
+} 

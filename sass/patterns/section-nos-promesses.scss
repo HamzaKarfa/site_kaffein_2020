@@ -1,0 +1,22 @@
+.section-nos-promesses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container-nos-promesses-button{
+        .et_pb_column,
+        .et_pb_column_4_4,
+        .et_pb_column_6 ,
+        .et_pb_css_mix_blend_mode_passthrough,
+        .et-last-child{
+            display: flex;
+            justify-content: center;
+            .et_pb_module {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+}

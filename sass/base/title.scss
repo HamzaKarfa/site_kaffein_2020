@@ -1,0 +1,16 @@
+//-------Title font--------//
+.author-description .author-link, .comment-metadata, .comment-reply-link, .comments-title, .comment-author .fn, .discussion-meta-info, .entry-meta, .entry-footer, .main-navigation, .no-comments, .not-found .page-title, .error-404 .page-title, .post-navigation .post-title, .page-links, .page-description, .pagination .nav-links, .sticky-post, .site-title, .site-info, #cancel-comment-reply-link, h1, h2, h3, h4, h5, h6{
+    font-family:'Raleway', sans-serif;
+}
+  
+  
+// Barre grise au dessus des titres // 
+h1:not(.site-title):before,
+h2:before {
+    background: #767676;
+    content: "\020";
+    display: none  ; 
+    height: 2px;
+    margin: 1rem 0;
+    width: 1em;
+}

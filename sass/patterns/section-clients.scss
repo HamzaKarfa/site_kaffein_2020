@@ -1,0 +1,108 @@
+
+.homepage-section-clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .container-clients-title{
+        margin: 0;
+    }
+    .container-clients{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;    
+        width: 100%;
+        a{
+            color: $color-nevada;
+        }
+        @media (min-width: 980px){
+            .et_pb_column{
+                width: 40%;
+            }
+        
+        }
+        .et_pb_column{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100% ;
+            a{
+                color: $color-nevada;
+                font-family: $font-paragraph;
+                font-weight: 500;
+                border: none;
+            }
+
+            .texte-client{
+                filter: grayscale(50%);
+                transition: .7s ease-out;
+                height:40vh;
+                width: 100%;
+                background-image: url("http://www.dev.kaffein.agency/wp-content/uploads/2020/10/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+                background-repeat: no-repeat;
+                background-size: 110%;
+    
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: flex-end;
+                .et_pb_text_inner{
+                    font-family: $font-paragraph;
+                    color:$color-white;
+                    h5{
+                        font-weight: 700;
+                    }
+                    p{
+                        font-weight: 500;
+                        span{
+                            background-color: $color-primary;
+                        }
+                    }
+                }
+            }
+            .texte-client:hover{
+                background-size: 120%;
+                filter: grayscale(0%);
+            }
+        }
+    }
+    .et_pb_row, .et_pb_row_5{
+        
+        .et_pb_column,
+        .et_pb_column_4_4,
+        .et_pb_column_6 ,
+        .et_pb_css_mix_blend_mode_passthrough,
+        .et-last-child{
+            display: flex;
+            justify-content: center;
+
+            .et_pb_button_module_wrapper,
+            .et_pb_button_4_wrapper ,
+            .et_pb_module {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .client-button{
+                    color: $color-white;
+                    background-color: $color-primary;
+
+                    height: 50px;
+                    text-align: center;
+                    font-family: $font-paragraph;
+                    font-weight: 500;
+
+                }
+                .client-button:hover{
+                    transition-duration: 0.7s;
+                    background-image:  -webkit-linear-gradient(left , $color-primary-variant-eWisteria 10%, $color-primary 100%);
+                    border: 2px solid white;
+                }
+            }
+    
+        }
+
+    }
+} 

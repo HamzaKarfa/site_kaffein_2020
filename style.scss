@@ -1,0 +1,44 @@
+/*
+Theme Name: kaffein
+Author: Kaffein
+Template: twentynineteen
+Version: 0.1.0
+*/
+
+body #et-boc {
+  #et_builder_outer_content {
+            @import "sass/global.scss";
+            @import "sass/base/main-variables.scss";
+
+
+            @import "sass/components/button.scss";
+            @import "sass/components/carrousel.scss";
+            
+            
+            @import "sass/layout/main-header";
+            @import "sass/layout/logo-animation";
+            @import "sass/layout/menu-animation";
+            @import "sass/layout/main-footer";
+            
+            @import "sass/page/homepage.scss";
+            
+            @import "sass/patterns/section-agency.scss";
+            @import "sass/patterns/section-articles.scss";
+            @import "sass/patterns/section-clients.scss";
+            @import "sass/patterns/section-developpement-campagne.scss";
+            @import "sass/patterns/section-hero-header.scss";
+            @import "sass/patterns/section-nos-partenaires.scss";
+            @import "sass/patterns/section-nos-promesses.scss";
+            @import "sass/patterns/section-nos-produits.scss";
+            @import "sass/patterns/section-prendre-un-rdv.scss";
+            @import "sass/patterns/section-scroll-x-auto.scss";
+            @import "sass/patterns/section-scroll-x-manual.scss";
+            // @import "sass/patterns/";
+            // @import "sass/patterns/";
+            
+            
+            @import "sass/magnetic-cursor.scss";
+            
+    
+    }
+}

@@ -1,0 +1,42 @@
+.section-nos-produits{
+    font-family: $font-title;
+    .container-nos-produits{
+        .et_pb_column{
+            @media (min-width: 980px){
+                width: 100%;               
+            }
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .title{
+                display: flex;
+                justify-content: flex-start;
+                font-weight: 700;
+                .et_pb_text_inner{
+                    display: flex;
+                    flex-flow: wrap;
+                    justify-content: flex-start;
+                    align-items: center;
+                    p{
+                        text-align: center;
+                        margin: 20px;
+                        padding: 0;
+                        font-size: 20pt;
+                    }
+                }
+            }
+            .et_pb_text{
+                font-weight: normal;
+
+            }
+            .et_pb_button_module_wrapper{
+                a{
+                    border: solid 2px $color-shark !important;
+                    color: $color-shark !important;
+                }
+            }
+        }
+    }
+
+}

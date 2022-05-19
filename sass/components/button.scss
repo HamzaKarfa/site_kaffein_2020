@@ -1,0 +1,22 @@
+ .container-button{
+    .et_pb_column{
+        .et_pb_button_module_wrapper{
+            display: flex;
+            justify-content: center;
+            a{
+                font-family: $font-title;
+                color: $color-white;
+                background-color: $color-primary;
+                height: 50px;
+                text-align: center;
+                font-family: $font-paragraph;
+                font-weight: 500;
+            }
+            a:hover{
+                transition-duration: 0.7s;
+                background-image:  -webkit-linear-gradient(left , $color-primary-variant-eWisteria 10%, $color-primary 100%);
+                border: 2px solid white;
+            }
+        }
+    }
+}
